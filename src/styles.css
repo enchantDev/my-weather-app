@@ -1,0 +1,68 @@
+header {
+  margin: 10px auto;
+}
+body {
+  font-family: "Single Day", cursive;
+  font-family: "Source Code Pro", monospace;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgba(234, 249, 249, 0.67) 0.1%,
+    rgba(239, 249, 251, 0.63) 90.1%
+  );
+}
+main {
+  margin: 10px auto;
+  padding: 10px;
+}
+form input[type="search"] {
+  width: 400px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+form input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2593be;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+form input[type="submit"]:hover {
+  background-color: #ffffff;
+  color: #2593be;
+}
+footer p {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+.highlight {
+  font-weight: bold;
+  color: #2593be;
+}
+.weather {
+  background: white;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+#temperature {
+  position: relative;
+  top: 50px;
+  font-size: 50px;
+  font-weight: bolder;
+}
